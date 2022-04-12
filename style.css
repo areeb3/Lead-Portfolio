@@ -7,7 +7,7 @@
 html {
 	font-size: 11px;
 	font-family: 'Montserrat', sans-serif;
-	scroll-behavior: smooth;
+	scroll-behavior: auto;
 }
 a {
 	text-decoration: none;
@@ -327,7 +327,7 @@ p {
 /* End Skills Section */
 
 /* Projects section */
-#projects .projects {
+/* #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -392,7 +392,7 @@ p {
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
-}
+} */
 /* End Projects section */
 
 /* About Section */
