@@ -4,6 +4,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 html {
 	font-size: 11px;
 	font-family: 'Montserrat', sans-serif;
@@ -35,14 +36,14 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: #607d8b;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	text-align: center;
 }
 .section-title span {
-	color: #36d5d7;
+	color: #ff4584;
 }
 
 .cta {
@@ -50,7 +51,7 @@ p {
 	padding: 10px 30px;
 	color: black;
 	background-color: transparent;
-	border: 2px solid #36d5d7;
+	border: 2px solid #ff4584;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
@@ -60,16 +61,16 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: #36d5d7;
+	background-color: #ff4584;
 	
 }
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: #ff4584;
 }
 .brand h1 span {
-	color: white;
+	color: #ff4584;
 }
 
 /* Header section */
@@ -83,7 +84,8 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-    background-image: linear-gradient(60deg, #51eff2 10%, #6b829a 100%);
+	background-color: #607d8b;
+    background-image: linear-gradient(60deg, #607d8b 10%, #6b829a 100%);
     transition: .3s ease background-color;
 }
 #header .nav-bar {
@@ -249,7 +251,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color : #36d5d7;
+	background-color : #ff4584;
 	animation: text_reveal_box 1s ease;
 	animation-delay: .5s;
 }
@@ -265,6 +267,7 @@ p {
 /* End Intro Section */
 
 /* Skills Section */
+
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -305,7 +308,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-    background-image: linear-gradient(60deg, #51eff2 10%, #6b829a 100%);
+    background-image: linear-gradient(50deg, #ff4584 10%, #607d8b 50%);
 	opacity: .9;
 	z-index: -1;
 }
@@ -438,7 +441,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid #36d5d7;
+	border: 7px solid #ff4584;
 	z-index: -1;
 }
 /* End About Section */
@@ -488,7 +491,7 @@ p {
 
 /* Footer */
 #footer {
-    background-image: linear-gradient(60deg, #51eff2 10%, #6b829a 100%);
+    background-image: linear-gradient(60deg, #607d8b 10%, #6b829a 100%);
 }
 #footer .footer {
 	min-height: 100px;
@@ -549,12 +552,12 @@ p {
 }
 @keyframes text_reveal {
 	100% {
-		color: black;
+		color: #607d8b;
 	}
 }
 @keyframes text_reveal_name {
 	100% {
-		color: #36d5d7;
+		color: #ff4584;
 		font-weight: 500;
 	}
 }
@@ -618,8 +621,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid #36d5d7;
-
+		border: 10px solid #ff4584;
 	}
 	#about .col-right {
 		text-align: left;
